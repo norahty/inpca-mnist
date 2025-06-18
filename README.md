@@ -37,9 +37,9 @@ Clusters emerge as the CNN learns to separate digits; the trajectories replicate
 
 ## TODO
 
-- [ ] **Plot trajectories across time** (e.g., overlay epoch-0, epoch-10, epoch-50)
-- [ ] **Switch to largest-magnitude eigenvalues**, not just positive ones — to preserve directions with large negative λ (as noted in paper)
-- [ ] Add explained variance plot (required for interpreting InPCA visuals)
+- [x] **Plot trajectories across time** (e.g., overlay epoch-0, epoch-10, epoch-50)
+- [x] **Switch to largest-magnitude eigenvalues**, not just positive ones — to preserve directions with large negative λ (as noted in paper)
+- [x] Add explained variance plot (required for interpreting InPCA visuals)
 
 - [ ] Optional: support **full 10,000 point** embedding (current default is 2k)
 
