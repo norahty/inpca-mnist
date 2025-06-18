@@ -25,10 +25,11 @@ def inpca_embed_intensive(P, n_components=3):
     idx = eigvals.argsort()[::-1]        # largest first
     eigvals, eigvecs = eigvals[idx], eigvecs[:, idx]
 
-    # keep only positive (or the largest-magnitude) eigenpair, NEED TO CHANGE TO LARGEST MAGNITUDE
-    keep = eigvals > 0
-    eigvals, eigvecs = eigvals[keep][:n_components], eigvecs[:, keep][:, :n_components]
+    # Sort by absolute magnitude, keep the largest |λ| values:
+    order = np.argsort(np.abs(eigvals))[::-1]
+    eigvals, eigvecs = eigvals[order][:n_components], eigvecs[:, order][:, :n_components]
 
     # 6. Coordinates   T = U √Σ
-    coords = eigvecs * np.sqrt(eigvals)
+    coords = eigvecs * np.sqrt(np.abs(eigvals))
+
     return coords, eigvals
