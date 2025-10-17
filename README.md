@@ -32,6 +32,10 @@ The goal is to track and visualise the prediction geometry of a neural network o
 
 Plots show 3D InPCA projections of the model's predictions at different stages of training.  
 Clusters emerge as the CNN learns to separate digits; the trajectories replicate the trend in Fig. 3 (Quinn et al.).
+<img width="377" height="398" alt="Screenshot 2025-10-17 at 4 05 03 PM" src="https://github.com/user-attachments/assets/f57fc2c3-f2a5-4c65-a62d-4792954d696c" />
+<img width="377" height="398" alt="Screenshot 2025-10-17 at 4 04 27 PM" src="https://github.com/user-attachments/assets/38688cf4-2cee-4bcb-aac5-974f58de018f" />
+<img width="377" height="398" alt="Screenshot 2025-10-17 at 4 04 56 PM" src="https://github.com/user-attachments/assets/6cafdd8e-3603-405f-bfce-f7a53012d4da" />
+
 
 ---
 
@@ -40,8 +44,6 @@ Clusters emerge as the CNN learns to separate digits; the trajectories replicate
 - [x] **Plot trajectories across time** (e.g., overlay epoch-0, epoch-10, epoch-50)
 - [x] **Switch to largest-magnitude eigenvalues**, not just positive ones — to preserve directions with large negative λ (as noted in paper)
 - [x] Add explained variance plot (required for interpreting InPCA visuals)
-
-- [ ] Optional: support **full 10,000 point** embedding (current default is 2k)
 
 ---
 
