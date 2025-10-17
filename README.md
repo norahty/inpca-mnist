@@ -39,7 +39,10 @@ Clusters emerge as the CNN learns to separate digits; the trajectories replicate
 
 
 
-https://github.com/user-attachments/assets/3c25b4dc-e543-4d06-b056-c73017a38992
+
+https://github.com/user-attachments/assets/40be6fad-00ca-448b-9190-7dca701b2847
+
+
 
 
 
