@@ -36,7 +36,7 @@ Clusters emerge as the CNN learns to separate digits; the trajectories replicate
 <img width="377" height="398" alt="Screenshot 2025-10-17 at 4 04 27 PM" src="https://github.com/user-attachments/assets/38688cf4-2cee-4bcb-aac5-974f58de018f" />
 <img width="377" height="398" alt="Screenshot 2025-10-17 at 4 04 56 PM" src="https://github.com/user-attachments/assets/6cafdd8e-3603-405f-bfce-f7a53012d4da" />
 
-
+https://github.com/user-attachments/assets/8da17c38-ca1c-4c02-b07f-d439590a81ce
 ---
 
 ## TODO
@@ -55,7 +55,7 @@ Proceedings of the National Academy of Sciences (PNAS).
 [https://www.pnas.org/doi/10.1073/pnas.1817218116](https://www.pnas.org/doi/10.1073/pnas.1817218116)
 
 
-https://github.com/user-attachments/assets/8da17c38-ca1c-4c02-b07f-d439590a81ce
+
 
 
 ---
