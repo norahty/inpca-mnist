@@ -19,12 +19,12 @@ The goal is to track and visualise the prediction geometry of a neural network o
 
 **InPCA steps** implemented as per Quinn et al.:
 
-1. Apply Hellinger map:                    `Z = √P`
-2. Compute overlap matrix:                `H = Z @ Z.T`
-3. Apply replica-0 limit (log distance):       `L = 4 log(H)`
-4. Double-centering for mean-shift:         `W = J L J`
-5. Eigendecomposition of \( W \):          `eigh(W)`
-6. Project onto top components:           `coords = U √Σ`
+1. Apply Hellinger map:                           `Z = √P`
+2. Compute overlap matrix:                        `H = Z @ Z.T`
+3. Apply replica-0 limit (log distance):          `L = 4 log(H)`
+4. Double-centering for mean-shift:               `W = J L J`
+5. Eigendecomposition of \( W \):                 `eigh(W)`
+6. Project onto top components:                   `coords = U √Σ`
 
 ---
 
