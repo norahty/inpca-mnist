@@ -57,4 +57,4 @@ Proceedings of the National Academy of Sciences (PNAS).
 ## Contact
 
 Implemented and modified by norahty.  
-For questions, contact directly on slack.
+For questions, contact directly via email norahty [at] seas.upenn.edu
